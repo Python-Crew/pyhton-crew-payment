@@ -18,7 +18,6 @@ Add to INATALLED_APPS:
 ```python
 "django_prices",
 "enmerkar",
-"user",
 "payment",
 "order",
 ```
