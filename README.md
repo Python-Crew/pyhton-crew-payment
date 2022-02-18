@@ -1,20 +1,31 @@
 # Python crew payment
 
+Python crew payment is a Python library for dealing with payment and bank gateways
 
-## Instalation
-''' pip intall '''
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pythoncrewpayment.
+
+```bash
+pip intall payment
+```
+
+## Usage
 
 Edit your settings.py
 Add to INATALLED_APPS:
-'''  "django_prices",
-    "enmerkar",
-    "user",
-    "payment",
-    "order", '''
+
+```python
+"django_prices",
+"enmerkar",
+"user",
+"payment",
+"order",
+```
 
 Add this to your settings.py:
 
-'''
+```python
 CALLBACK_URL = "your callback url"
 
 BANK_CLASS = {
@@ -39,5 +50,7 @@ BANK_SETTINGS = {
 }
 
 BANK_TYPE = "payment.banks.paymentstatuses.BankType"
+```
 
-'''
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
