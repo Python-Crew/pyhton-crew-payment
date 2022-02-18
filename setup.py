@@ -31,14 +31,14 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Python-Crew/pyhton-crew-payment",
     project_urls={
-        "Bug Tracker": "https://github.com/Python-Crew/pyhton-crew-payment",
+        "Bug Tracker": "https://github.com/....",
     },
     classifiers=CLASSIFIERS,
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     install_requires=[
         "Django>=2.2,<4",
-        "prices>=1.0.0",
+        "prices>=1.1.0",
         "django-prices>=2.2.0",
         "stripe>=2.63.0",
         "requests>=2.26.0",
