@@ -7,7 +7,7 @@ Python crew payment is a Python library for dealing with payment and bank gatewa
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Pythoncrewpayment.
 
 ```bash
-pip intall payment
+pip intall python-crew-payment
 ```
 
 ## Usage

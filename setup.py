@@ -22,9 +22,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 
 setuptools.setup(
-    name="payment-package-YOUR-USERNAME-HERE",
+    name="python-crew-payment",
     version="0.0.1",
-    author="Bahman Shadmehr & Saeide Tohidi",
+    author="Python Crew",
     author_email="...",
     description="A Django Packeges for Payment",
     long_description=long_description,
