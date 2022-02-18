@@ -17,7 +17,7 @@ CLASSIFIERS = [
 
 
 
-with open("README.md", "r", encoding="utf-8") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 
@@ -25,13 +25,13 @@ setuptools.setup(
     name="python-crew-payment",
     version="0.0.1",
     author="Python Crew",
-    author_email="...",
+    author_email="s.tohidi22@gmail.com",
     description="A Django Packeges for Payment",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/PaymentPackeges",
+    url="https://github.com/Python-Crew/pyhton-crew-payment",
     project_urls={
-        "Bug Tracker": "https://github.com/....",
+        "Bug Tracker": "https://github.com/Python-Crew/pyhton-crew-payment",
     },
     classifiers=CLASSIFIERS,
     package_dir={"": "src"},
